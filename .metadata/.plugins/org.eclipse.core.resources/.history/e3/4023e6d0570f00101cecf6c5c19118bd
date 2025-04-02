@@ -1,0 +1,123 @@
+package com.nt.runners;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.stereotype.Component;
+
+import com.nt.entity.Doctor;
+import com.nt.service.IDoctorMgmtService;
+
+@Component
+public class CrudRepositoryTestRunner implements CommandLineRunner {
+	@Autowired
+	private IDoctorMgmtService docService;
+
+	@Override
+	public void run(String... args) throws Exception {
+		try {
+			// prepare Doctor object
+			Doctor doc = new Doctor("kamal", "MD", 89991L, 9999998L, "ortho");
+			String msg = docService.registerDoctor(doc);
+			System.out.println(msg);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+		/*
+		 * try { System.out.println("Doctors count ::"+docService.showDoctorsCount()); }
+		 * catch(Exception e) { e.printStackTrace(); }
+		 */
+
+		/*
+		 * try { Doctor doc1=new Doctor("suresh","MD",89991L,9999991L,"cardio"); Doctor
+		 * doc2=new Doctor("mahesh","MD",89992L,9999991L,"physio"); Doctor doc3=new
+		 * Doctor("karam","MD",89993L,99999981L,"nuero"); Doctor doc4=new
+		 * Doctor("mahi","MBBS",89991L,99999981L,"nuero"); Doctor doc5=new
+		 * Doctor("sahi","MD",89913L,99999981L,"ortho");
+		 * 
+		 * List<Doctor> list=List.of(doc1,doc2,doc3,doc4,doc5); //java 9 feature giving
+		 * immutable collection String
+		 * resultMsg=docService.registerDoctorsAsGroup(list);
+		 * System.out.println(resultMsg); } catch(Exception e) { e.printStackTrace(); }
+		 */
+		/*
+		 * try { String msg=docService.checkDoctorAvailabilityById(102);
+		 * System.out.println(msg); } catch(Exception e) { e.printStackTrace(); }
+		 */
+
+		/*
+		 * try { Iterable<Doctor> list=docService.findAllDoctors(); list.forEach(doc->{
+		 * System.out.println(doc); }); System.out.println("--------------------");
+		 * list.forEach(doc->System.out.println(doc));
+		 * System.out.println("--------------------");
+		 * list.forEach(System.out::println);
+		 * System.out.println("--------------------");
+		 * StreamSupport.stream(list.spliterator(), false).forEach(System.out::println);
+		 * System.out.println("--------------------"); long
+		 * count=StreamSupport.stream(list.spliterator(), false).count();
+		 * System.out.println("No.of  records ::"+count);
+		 * System.out.println("--------------------"); Iterable<String>
+		 * specialatiesList=StreamSupport.stream(list.spliterator(),
+		 * false).map(Doctor::getSpecialization).collect(Collectors.toList());
+		 * System.out.println(specialatiesList);
+		 * System.out.println("--------------------"); for(Doctor doc:list) {
+		 * System.out.println(doc); } System.out.println("--------------------");
+		 * List<Doctor> list1=StreamSupport.stream(list.spliterator(), false).toList();
+		 * for(int i=0;i<count;++i) { System.out.println(list1.get(i)); }
+		 * 
+		 * } catch(Exception e) { e.printStackTrace(); }
+		 */
+
+		/*
+		 * try { List<Integer> ids=new ArrayList(); ids.add(101);
+		 * ids.add(102);ids.add(52); ids.add(451); ids.add(null);
+		 * 
+		 * List<Integer> ids=Arrays.asList(101,102,53,451,null); Iterable<Doctor>
+		 * it=docService.findAllDoctorsByIds(ids); long
+		 * count=StreamSupport.stream(it.spliterator(), false).count();
+		 * System.out.println(count+"  no.of  doctos are found with the given ids");
+		 * it.forEach(doc->{ System.out.println(doc); }); } catch(Exception e) {
+		 * e.printStackTrace(); }
+		 */
+
+		/*
+		 * try { Doctor doc=docService.showDoctorById(52);
+		 * System.out.println("doctor info is ::"+doc); } catch(Exception e) {
+		 * e.printStackTrace(); }
+		 */
+		/*
+		 * try { Optional<Doctor> opt=docService.getDoctorById(152); if(opt.isEmpty())
+		 * System.out.println("Doctor not found"); else
+		 * System.out.println("Doctor found ::"+opt.get()); } catch(Exception e) {
+		 * e.printStackTrace(); }
+		 */
+
+		/*
+		 * try { Doctor doc=new Doctor(152,"suresh","MD",89999L,7777777L,"cardio");
+		 * String msg=docService.registerOrUpdateDoctor(doc); System.out.println(msg); }
+		 * catch(Exception e) { e.printStackTrace(); }
+		 */
+		/*
+		 * try { String msg=docService.updateDoctorDetails(521, "MD-FRC London",
+		 * 97899999L); System.out.println(msg); } catch(Exception e) {
+		 * e.printStackTrace(); }
+		 */
+
+		/*
+		 * try { String msg=docService.removeAllDoctors(); System.out.println(msg); }
+		 * catch(Exception e) { e.printStackTrace(); }
+		 */
+		/*
+		 * try { String msg=docService.removeDoctorsByIds(List.of(303,304,305,190,109));
+		 * System.out.println(msg); } catch(Exception e) { e.printStackTrace(); }
+		 */
+		try {
+			String msg = docService.removeDoctorById(306);
+			System.out.println(msg);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+	}// run(-)
+
+}// class
