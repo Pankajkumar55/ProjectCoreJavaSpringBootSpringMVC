@@ -3141,3 +3141,143 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.xmlunit:x
 	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 2025-04-02 05:03:33,569 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-04-02 06:50:40,532 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-04-02 06:51:30,455 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-02 06:51:30,496 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-02 06:51:30,512 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\SpringBoot&AdvJava\BootDataJpaProj01-CrurdRepository\src\test\resources
+2025-04-02 06:51:37,433 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-02 06:51:37,484 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-02 06:51:37,532 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\SpringBoot&AdvJava\BootDataJpaProj02-PagingAndSortingRepository\src\test\resources
+2025-04-02 06:51:41,549 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-02 06:51:41,591 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-02 06:51:41,607 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\SpringBoot&AdvJava\BootDataJpaProj03-JPARepository\src\test\resources
+2025-04-02 06:51:44,568 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-02 06:51:44,602 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-02 06:51:44,612 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\SpringBoot&AdvJava\BootDataJpaProj04-CustomMethods-finderMethods\src\test\resources
+2025-04-02 06:51:47,507 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-02 06:51:47,540 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-02 06:51:47,579 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\SpringBoot&AdvJava\BootDataJpaProj05-CustomMethods-QueryMethods\src\test\resources
+2025-04-02 06:51:50,355 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-02 06:51:50,397 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-02 06:51:50,406 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\SpringBoot&AdvJava\BootDataJpaProj06-Versioning-TimeStamping\src\test\resources
+2025-04-02 06:51:52,913 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-02 06:51:52,951 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-02 06:51:52,961 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\SpringBoot&AdvJava\BootDataJpaProj07-WorkingDateTimeValues\src\test\resources
+2025-04-02 06:51:55,976 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-02 06:51:56,012 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-02 06:51:56,023 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\SpringBoot&AdvJava\BootDataJpaProj08-WorkingWithLOBs\src\test\resources
+2025-04-02 06:51:58,678 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-02 06:51:58,712 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-02 06:51:58,721 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\SpringBoot&AdvJava\BootDataJpaProj09-OraclePL-SQLProcedure\src\test\resources
+2025-04-02 06:52:01,494 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-02 06:52:01,527 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-02 06:52:01,536 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\SpringBoot&AdvJava\BootDataJpaProj10-MySQLPL-SQLProcedure\src\test\resources
+2025-04-02 06:52:03,441 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-02 06:52:03,476 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-02 06:52:03,485 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\SpringBoot&AdvJava\BootDataJpaProj11-CallingOracleProcedue-Authentication\src\test\resources
+2025-04-02 06:52:05,622 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-02 06:52:05,654 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-02 06:52:05,665 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\SpringBoot&AdvJava\BootDataJpaProj12-OneToManyBiDirectional\src\test\resources
+2025-04-02 06:52:08,610 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-02 06:52:08,641 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-02 06:52:08,650 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\SpringBoot&AdvJava\BootDataJpaProj13-OneToManyBiDirectional-Joins\src\test\resources
+2025-04-02 06:52:11,448 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-02 06:52:11,630 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-02 06:52:11,692 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\SpringBoot&AdvJava\BootDataJpaProj14-ManyToMany\src\test\resources
+2025-04-02 06:52:13,989 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-02 06:52:14,101 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-02 06:52:14,114 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\SpringBoot&AdvJava\BootIOCProj01-DependencyInjection\src\test\resources
+2025-04-02 06:52:17,403 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-02 06:52:17,439 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-02 06:52:17,447 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\SpringBoot&AdvJava\BootIOCProj02-StrategyDP\src\test\resources
+2025-04-02 06:52:20,001 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-02 06:52:20,043 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-02 06:52:20,070 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\SpringBoot&AdvJava\BootIOCProj03-MiniProject-RealtimeDI\src\test\resources
+2025-04-02 06:52:22,411 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-02 06:52:22,452 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-02 06:52:22,463 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\SpringBoot&AdvJava\BootIOCProj04-MiniProject-RealtimeDI-Oracle-MySQL-LooseCoupling\src\test\resources
+2025-04-02 06:52:25,087 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-04-02 06:52:25,130 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-02 06:52:25,139 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\SpringBoot&AdvJava\BootIOCProj09-MiniProject-Profiles-properties files\src\test\resources
+2025-04-02 06:52:26,875 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-04-02 06:52:26,914 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-02 06:52:26,921 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\SpringBoot&AdvJava\BootIOCProj10-MiniProject-Profiles-multiple yml files\src\test\resources
+2025-04-02 06:52:29,277 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-02 06:52:29,364 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-02 06:52:29,378 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\SpringBoot&AdvJava\BootIOCProj11-MiniProject-Profiles-Single yml files\src\test\resources
+2025-04-02 06:52:32,370 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-02 06:52:32,416 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-02 06:52:32,424 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\SpringBoot&AdvJava\BootIOCProj12-MiniProject-Profiles-Runners\src\test\resources
+2025-04-02 06:52:33,876 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-02 06:52:33,908 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-02 06:52:33,916 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\SpringBoot&AdvJava\BootIOCProj13-Runners\src\test\resources
+2025-04-02 06:52:35,453 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-02 06:52:35,511 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-02 06:52:35,519 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\SpringBoot&AdvJava\BootIOCProj14-MiniProject-Debugging\src\test\resources
+2025-04-02 06:52:38,309 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-02 06:52:38,356 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-02 06:52:38,364 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\SpringBoot&AdvJava\BootMVCProj01-FirstApp-ShowingHomePage\src\test\resources
+2025-04-02 06:52:43,116 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-02 06:52:43,189 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-02 06:52:43,206 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\SpringBoot&AdvJava\BootMVCProj02-FirstApp-DataRendering\src\test\resources
+2025-04-02 06:52:45,069 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-04-02 06:52:45,112 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-02 06:52:45,124 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\SpringBoot&AdvJava\BootProj05-ValueAnnotation-SPEL\src\test\resources
+2025-04-02 06:52:46,607 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-02 06:52:46,669 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-04-02 06:52:46,682 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\SpringBoot&AdvJava\BootProj06-BulkInjectionUsing-ConfigurationProperties\src\test\resources
+2025-04-02 06:52:48,081 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-02 06:52:48,212 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-02 06:52:48,226 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\SpringBoot&AdvJava\BootProj07-YMLFile\src\test\resources
+2025-04-02 06:52:49,747 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-04-02 06:52:49,783 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-04-02 06:52:49,795 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\SpringBoot&AdvJava\BootProj08-BulkInjectionUsingYMLFile\src\test\resources
+2025-04-02 06:52:50,783 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\SpringBoot&AdvJava\IOCProj07-strategyDP-Maven-Spring\src\main\resources
+2025-04-02 06:52:50,790 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\SpringBoot&AdvJava\IOCProj07-strategyDP-Maven-Spring\src\test\resources
+2025-04-02 06:52:51,204 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\SpringBoot&AdvJava\IOCProj08-SingletonJavaClass-CoreJava\src\main\resources
+2025-04-02 06:52:51,210 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\SpringBoot&AdvJava\IOCProj08-SingletonJavaClass-CoreJava\src\test\resources
+2025-04-02 06:52:51,844 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\SpringBoot&AdvJava\IOCProj10-ValueAnnotation-PropertiesFile\src\main\resources
+2025-04-02 06:52:51,850 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\SpringBoot&AdvJava\IOCProj10-ValueAnnotation-PropertiesFile\src\test\resources
+2025-04-02 06:52:52,434 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\SpringBoot&AdvJava\IOCProj11-strategyDP-SolvingTheAmbiguityProblem-LooseCoupling\src\main\resources
+2025-04-02 06:52:52,440 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\SpringBoot&AdvJava\IOCProj11-strategyDP-SolvingTheAmbiguityProblem-LooseCoupling\src\test\resources
+2025-04-02 06:52:53,188 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\SpringBoot&AdvJava\IOCProj12-I18nInSpring\src\main\resources
+2025-04-02 06:52:53,195 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\SpringBoot&AdvJava\IOCProj12-I18nInSpring\src\test\resources
+2025-04-02 06:52:53,719 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\SpringBoot&AdvJava\IOCProj13-SpringBeanLifeCycle-AnnotationDriven\src\main\resources
+2025-04-02 06:52:53,727 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\SpringBoot&AdvJava\IOCProj13-SpringBeanLifeCycle-AnnotationDriven\src\test\resources
+2025-04-02 06:52:53,962 [Worker-17: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/IOCProj13-SpringBeanLifeCycle-AnnotationDriven: com.nit:IOCProj13-SpringBeanLifeCycle-AnnotationDriven:0.0.1-SNAPSHOT with classifier  to /IOCProj13-SpringBeanLifeCycle-AnnotationDriven/target/classes
+2025-04-02 06:52:54,221 [Worker-17: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-04-02 06:52:54,222 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\SpringBoot&AdvJava\IOCProj06-StrategyDP-Spring\src\main\resources
+2025-04-02 06:52:54,231 [Worker-17: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-04-02 06:52:54,232 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\SpringBoot&AdvJava\IOCProj06-StrategyDP-Spring\src\test\resources
+2025-04-02 07:03:42,558 [Worker-36: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-04-02 07:03:42,568 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\SpringBoot&AdvJava\IOCProj06-StrategyDP-Spring\src\main\resources
+2025-04-02 07:03:42,574 [Worker-36: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-04-02 07:03:42,575 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\SpringBoot&AdvJava\IOCProj06-StrategyDP-Spring\src\test\resources
+2025-04-02 07:03:50,924 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\SpringBoot&AdvJava\IOCProj07-strategyDP-Maven-Spring\src\main\resources
+2025-04-02 07:03:50,930 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\SpringBoot&AdvJava\IOCProj07-strategyDP-Maven-Spring\src\test\resources
+2025-04-06 18:49:32,436 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-04-06 18:51:06,940 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/3.1.4/maven-deploy-plugin-3.1.4.jar
+2025-04-06 18:51:07,528 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:webProjectDemo:0.0.1-SNAPSHOT @ E:\SpringBoot&AdvJava\webProjectDemo\pom.xml.
+2025-04-06 18:51:10,548 [Worker-3: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /webProjectDemo/src/main/java
+2025-04-06 18:51:10,551 [Worker-3: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /webProjectDemo/src/main/resources
+2025-04-06 18:51:10,557 [Worker-3: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /webProjectDemo/src/main/resources
+2025-04-06 18:51:10,561 [Worker-3: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /webProjectDemo/src/test/java
+2025-04-06 18:51:10,562 [Worker-3: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /webProjectDemo/src/test/resources
+2025-04-06 18:51:16,646 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 11 sec
+2025-04-06 18:51:16,660 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-04-06 18:51:17,732 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:webProjectDemo:0.0.1-SNAPSHOT @ E:\SpringBoot&AdvJava\webProjectDemo\pom.xml.
+2025-04-06 18:51:19,318 [Worker-3: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /webProjectDemo/src/main/java
+2025-04-06 18:51:19,319 [Worker-3: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /webProjectDemo/src/main/resources
+2025-04-06 18:51:19,320 [Worker-3: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /webProjectDemo/src/main/resources
+2025-04-06 18:51:19,321 [Worker-3: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /webProjectDemo/src/test/java
+2025-04-06 18:51:19,356 [Worker-3: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /webProjectDemo/src/test/resources
+2025-04-06 18:51:21,821 [Worker-3: Import Getting Started Content] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for webProjectDemo
+2025-04-06 18:51:21,925 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 2.00 sec, update config takes 1.00 sec 
+2025-04-06 18:51:25,082 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-06 18:51:25,139 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-06 18:51:25,153 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\SpringBoot&AdvJava\webProjectDemo\src\test\resources
+2025-04-06 18:51:25,153 [Worker-2: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of webProjectDemo
+2025-04-06 18:51:25,155 [Worker-2: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for webProjectDemo
+2025-04-06 18:54:44,221 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-06 18:54:44,234 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-06 18:54:44,241 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\SpringBoot&AdvJava\webProjectDemo\src\test\resources
